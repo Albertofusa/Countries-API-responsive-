@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --Dark-blue-elements: hsl(209, 23%, 22%);
+  --Dark-blue-background: hsl(207, 26%, 17%);
+  --Dark-blue-light-text: hsl(200, 15%, 8%);
+  --Dark-gray-input: hsl(0, 0%, 52%);
+  --Very-light-gray-background: hsl(0, 0%, 98%);
+  --White-elements-text: hsl(0, 0%, 100%);
+  --font-size: 62.5%;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid var(--Very-light-gray-background);
+  position: sticky;
+  top: 0;
+}
+
+.header__title {
+  font-size: 1.6rem;
+}
