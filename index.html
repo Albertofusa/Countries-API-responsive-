@@ -23,19 +23,21 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div>
-        <h1 class="header__title">Where in the world?</h1>
-      </div>
-      <div>
-        <a class="header__link__icon__moon" href="#"
-          ><i class="fa-regular fa-moon icon__moon"></i
-        ></a>
-        <a class="header__link" href="#">Dark Mode</a>
-      </div>
+      <nav class="navbar wrap__desktop">
+        <div>
+          <h1 class="header__title">Where in the world?</h1>
+        </div>
+        <div>
+          <a class="header__link__icon__moon" href="#"
+            ><i class="fa-regular fa-moon icon__moon"></i
+          ></a>
+          <a class="header__link" href="#">Dark Mode</a>
+        </div>
+      </nav>
     </header>
     <!-- main -->
     <main class="container">
-      <div class="wrap">
+      <div class="wrap wrap__desktop">
         <!-- form -->
         <form class="form" action="form">
           <div class="form__box">
@@ -48,7 +50,7 @@
               placeholder="Search for a country..."
             />
           </div>
-          <div class="form__box">
+          <div class="form__box__select">
             <select class="select" name="Countries" id="Countries">
               <option selected disabled>Filter by region</option>
               <option value="africa">Africa</option>
